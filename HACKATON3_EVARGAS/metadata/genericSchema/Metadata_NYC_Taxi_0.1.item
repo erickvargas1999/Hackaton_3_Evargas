@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Bb_TICjCEfGjcOLILYjYdQ" comment="connectionComment" label="connectionLabel" dataPackage="_Bb_TISjCEfGjcOLILYjYdQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_Bb_TISjCEfGjcOLILYjYdQ" dataManager="_Bb_TICjCEfGjcOLILYjYdQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Bb_TIijCEfGjcOLILYjYdQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_TIyjCEfGjcOLILYjYdQ" name="VendorID" id="432" label="VendorID" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_Bb_6MCjCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6MSjCEfGjcOLILYjYdQ" name="tpep_pickup_datetime" id="433" label="tpep_pickup_datetime" length="-1" precision="-1" sourceType="" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;">
+        <initialValue xmi:id="_Bb_6MijCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6MyjCEfGjcOLILYjYdQ" name="tpep_dropoff_datetime" id="434" label="tpep_dropoff_datetime" length="-1" precision="-1" sourceType="" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;">
+        <initialValue xmi:id="_Bb_6NCjCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6NSjCEfGjcOLILYjYdQ" name="passenger_count" id="435" label="passenger_count" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6NijCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6NyjCEfGjcOLILYjYdQ" name="trip_distance" id="436" label="trip_distance" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6OCjCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6OSjCEfGjcOLILYjYdQ" name="RatecodeID" id="437" label="RatecodeID" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6OijCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6OyjCEfGjcOLILYjYdQ" name="store_and_fwd_flag" id="438" label="store_and_fwd_flag" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_Bb_6PCjCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6PSjCEfGjcOLILYjYdQ" name="PULocationID" id="439" label="PULocationID" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_Bb_6PijCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6PyjCEfGjcOLILYjYdQ" name="DOLocationID" id="440" label="DOLocationID" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_Bb_6QCjCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6QSjCEfGjcOLILYjYdQ" name="payment_type" id="441" label="payment_type" length="-1" precision="-1" sourceType="" talendType="id_Long">
+        <initialValue xmi:id="_Bb_6QijCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6QyjCEfGjcOLILYjYdQ" name="fare_amount" id="442" label="fare_amount" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6RCjCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6RSjCEfGjcOLILYjYdQ" name="extra" id="443" label="extra" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6RijCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6RyjCEfGjcOLILYjYdQ" name="mta_tax" id="444" label="mta_tax" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6SCjCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6SSjCEfGjcOLILYjYdQ" name="tip_amount" id="445" label="tip_amount" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6SijCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6SyjCEfGjcOLILYjYdQ" name="tolls_amount" id="446" label="tolls_amount" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6TCjCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6TSjCEfGjcOLILYjYdQ" name="improvement_surcharge" id="447" label="improvement_surcharge" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6TijCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6TyjCEfGjcOLILYjYdQ" name="total_amount" id="448" label="total_amount" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6UCjCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6USjCEfGjcOLILYjYdQ" name="congestion_surcharge" id="449" label="congestion_surcharge" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6UijCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6UyjCEfGjcOLILYjYdQ" name="Airport_fee" id="450" label="Airport_fee" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6VCjCEfGjcOLILYjYdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Bb_6VSjCEfGjcOLILYjYdQ" name="cbd_congestion_fee" id="451" label="cbd_congestion_fee" length="-1" precision="-1" sourceType="" talendType="id_Double">
+        <initialValue xmi:id="_Bb_6VijCEfGjcOLILYjYdQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
