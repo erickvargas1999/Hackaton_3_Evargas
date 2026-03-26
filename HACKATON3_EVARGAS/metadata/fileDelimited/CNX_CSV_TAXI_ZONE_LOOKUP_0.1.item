@@ -3,10 +3,10 @@
   <TalendMetadata:DelimitedFileConnection xmi:id="_CcG34Ci4EfGjcOLILYjYdQ" name="CNX_CSV_TAXI_ZONE_LOOKUP" dataPackage="_CcItECi4EfGjcOLILYjYdQ" Server="Localhost 127.0.0.1" FilePath="D:/HP/Descargas/taxi_zone_lookup.csv" Encoding="windows-1252" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_CcItECi4EfGjcOLILYjYdQ" name="default" dataManager="_CcG34Ci4EfGjcOLILYjYdQ">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CcItESi4EfGjcOLILYjYdQ" id="__nKggCi2EfGjcOLILYjYdQ" label="TAXI_ZONE_LOOKUP">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CcItEii4EfGjcOLILYjYdQ" label="_LocationID" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CcItEyi4EfGjcOLILYjYdQ" label="_Borough" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CcItFCi4EfGjcOLILYjYdQ" label="_Zone" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CcItFSi4EfGjcOLILYjYdQ" label="_service_zone" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CcItEii4EfGjcOLILYjYdQ" label="LocationID" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CcItEyi4EfGjcOLILYjYdQ" label="Borough" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CcItFCi4EfGjcOLILYjYdQ" label="Zone" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CcItFSi4EfGjcOLILYjYdQ" label="service_zone" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>

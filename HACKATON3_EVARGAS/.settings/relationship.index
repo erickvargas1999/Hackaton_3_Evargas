@@ -1,1 +1,16 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_CbtZ0Ci5EfGjcOLILYjYdQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_BbqjACjCEfGjcOLILYjYdQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Cb9t8Ci4EfGjcOLILYjYdQ - TAXI_ZONE_LOOKUP",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
